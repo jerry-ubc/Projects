@@ -1,0 +1,107 @@
+#tllogo {
+    margin: 5px 0px 5px;
+}
+
+.flagyellow {
+    color:#FEC50C;
+}
+
+.flagblue {
+    background-color:#00AFCA;
+}
+
+.invertflagyellow {
+    background-color:#FEC50C;
+}
+
+.inverflagblue {
+    color:#00AFCA;
+}
+
+header {
+    background-image:URL("https://i.ytimg.com/vi/EUvhA-EYjyA/maxresdefault.jpg");
+}
+
+#quote {
+    text-shadow: 1px 1px white;
+    color:red;
+}
+
+#workingtitle {
+    text-shadow: 1px 1px white;
+    color:#cc0000;
+}
+
+ul {
+    font-size:19px;
+}
+
+table.table {
+    font-size:22px;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+p {
+    font-size:19px;
+}
+
+.col-xs-3, .col-xs-9 {
+    margin: 30px 30px 30px 30px;
+}
+
+.sponsor {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.sponsor:hover {
+    animation: enlarge 0.5s forwards;
+    box-shadow: 0 0 2px 1px #FEC50C;
+}
+
+@keyframes enlarge{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 110%;
+    }
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+    border-radius: 5px;
+    padding: 20px;
+}

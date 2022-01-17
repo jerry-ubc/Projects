@@ -1,0 +1,3 @@
+
+Our team would like to propose writing a report that explores the applications of computer vision in healthcare. Sections below entail the significance of our topic, our target audience, a schedule outlining our planned tasks, and an explanation of how we plan to conduct research.
+The proposed report will describe computer vision, its capabilities and how healthcare professionals are integrating it into their practices. We will also highlight the importance of computer vision's continued development in our era of consumerism and increasing health risks.

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <link rel = "stylesheet" href = "style.css" type = "text/css">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-xs-12">
+                    <nav class="navbar flagblue">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <div id = "tllogo" class = "thumbnail">
+                                    <a href = "index.html">
+                                        <img src = "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/83/832a26fb9cd2e4c7462201bb49d6c032865fccd4_full.jpg" width = 80px; height = 80px;>
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li><a href = "about.html"><h3 class = "flagyellow">About</h3></a></li>
+                                <li><a href = "sponsors.html"><h3 class = "flagyellow">Sponsors</h3></a></li>
+                                <li class = "dropdown"><a class = "dropdown-toggle" type = "button" data-toggle = "dropdown" href="gallery.html"><h3 class = "flagyellow">Rates <span class = "glyphicon glyphicon-circle-arrow-down"></span></h3></a>
+                                <ul class = "dropdown-menu">
+                                    <li><a href = "rates.html#premium"><h3 class = "flagyellow">Premium</h3></a></li>
+                                    <li><a href = "rates.html#plus"><h3 class = "flagyellow">Plus</h3></a></li>
+                                    <li><a href = "rates.html#regular"><h3 class = "flagyellow">Regular</h3></a></li>
+                                </ul>
+                            </ul>
+                            <ul class = "nav navbar-nav navbar-right">
+                                <li><a href = "contact.html"><h3 class = "flagyellow">Contact <span class = "glyphicon glyphicon-envelope"></span></h3></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class = "contact flagblue">
+                <form>
+    
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
+            <footer>
+                <hr>
+                <h5 class = "text-center">
+                    Website made by: Jerry Ge; contact jerry.jge@gmail.com for business inquiries
+                </h5>
+            </footer>
+        </div>
+    </body>
+</html>
